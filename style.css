@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow:wght@600;800&family=Outfit:wght@100;200;300;400;500;600;700;800&display=swap');
+
+body {
+    font-family: 'Outfit', 'sans-serif';
+    background-color: rgb(0, 26, 48);
+}
+
+#main {
+    background-color: hsl(216, 50%, 16%);
+    border-radius: 10px;
+    width: 7cm;
+    height: 12cm;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+a:hover {
+    color: hsl(178, 100%, 50%);
+    width: 4cm;
+}
+
+h2 {
+    font-weight: 600;
+    font-size: 15px;
+}
+
+p {
+    color: hsl(215, 51%, 70%);
+    font-size: 14px;
+}
+
+hr {
+    width: 6cm;
+    background-color: hsl(215, 32%, 27%);
+    border-style: none;
+    height: 1px;
+}
+
+.ethereum-clock {
+    height: 13px;
+    margin-right: 4px;
+}
+
+.icons {
+    display: flex;
+    justify-content: space-between;
+    width: 6cm;
+    margin-left: 0.5cm;
+    margin-top: -5px;
+}
+
+.text-color {
+    color: hsl(178, 100%, 50%);
+}
+
+.bigpic {
+    width: 6cm;
+    border-radius: 10px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 18px;
+}
+
+.view {
+    display: none;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.container:hover .view {
+    background-color: hsla(178, 100%, 50%, 0.244);
+    width: 6cm;
+    height: 6cm;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    margin-top: -95px;
+}
+
+.description {
+    width: 6cm;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.right, .left {
+    display: flex;
+    align-items: center;
+}
+
+.man {
+    height: 20px;
+    border-radius: 50%;
+    border: 1px solid white;
+    margin-right: 10px;
+}
+
+.avatar {
+    display: flex;
+    align-items: center;
+    width: 6cm;
+    margin-left: 0.5cm;
+}
