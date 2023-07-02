@@ -33,7 +33,7 @@ h2 {
 
 p {
     color: hsl(215, 51%, 70%);
-    font-size: 18px;
+    font-size: 17px;
 }
 
 hr {
@@ -44,7 +44,7 @@ hr {
 }
 
 .ethereum-clock {
-    height: 13px;
+    height: 20px;
     margin-right: 4px;
 }
 
