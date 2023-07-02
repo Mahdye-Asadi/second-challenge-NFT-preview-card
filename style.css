@@ -8,8 +8,8 @@ body {
 #main {
     background-color: hsl(216, 50%, 16%);
     border-radius: 10px;
-    width: 7cm;
-    height: 12cm;
+    width: 9cm;
+    height: 15.5cm;
     position: absolute;
     top: 50%;
     left: 50%;
@@ -28,16 +28,16 @@ a:hover {
 
 h2 {
     font-weight: 600;
-    font-size: 15px;
+    font-size: 22px;
 }
 
 p {
     color: hsl(215, 51%, 70%);
-    font-size: 14px;
+    font-size: 18px;
 }
 
 hr {
-    width: 6cm;
+    width: 8cm;
     background-color: hsl(215, 32%, 27%);
     border-style: none;
     height: 1px;
@@ -51,7 +51,7 @@ hr {
 .icons {
     display: flex;
     justify-content: space-between;
-    width: 6cm;
+    width: 8cm;
     margin-left: 0.5cm;
     margin-top: -5px;
 }
@@ -61,7 +61,7 @@ hr {
 }
 
 .bigpic {
-    width: 6cm;
+    width: 8cm;
     border-radius: 10px;
     display: block;
     margin-left: auto;
@@ -79,17 +79,17 @@ hr {
 
 .container:hover .view {
     background-color: hsla(178, 100%, 50%, 0.244);
-    width: 6cm;
-    height: 6cm;
+    width: 8cm;
+    height: 8cm;
     display: flex;
     justify-content: center;
     align-items: center;
     border-radius: 10px;
-    margin-top: -95px;
+    margin-top: -125px;
 }
 
 .description {
-    width: 6cm;
+    width: 8cm;
     display: block;
     margin-left: auto;
     margin-right: auto;
@@ -101,7 +101,7 @@ hr {
 }
 
 .man {
-    height: 20px;
+    height: 23px;
     border-radius: 50%;
     border: 1px solid white;
     margin-right: 10px;
@@ -110,6 +110,6 @@ hr {
 .avatar {
     display: flex;
     align-items: center;
-    width: 6cm;
+    width: 8cm;
     margin-left: 0.5cm;
 }
